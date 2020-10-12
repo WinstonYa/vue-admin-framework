@@ -6,6 +6,8 @@ import "nprogress/nprogress.css";
 // import userService from "@/global/service/user";
 import Store from "@/store/index";
 
+NProgress.configure({ showSpinner: false });
+
 Vue.use(VueRouter);
 
 const router = new VueRouter({
@@ -26,6 +28,7 @@ router.beforeEach(async (to, from, next) => {
     }
     if (TOKEN && to.name === "AccountLogin") {
       next({ name: "Home", replace: true });
+      return;
     }
     if (!router.firstInit && TOKEN) {
       router.firstInit = true;

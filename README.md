@@ -27,8 +27,3 @@ yarn lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
-
-## License
-[MIT](https://github.com/WinstonYa/vue-admin-framework/blob/master/LICENSE)
-
-Copyright (c) 2020-present Winston_Wong

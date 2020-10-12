@@ -4,18 +4,27 @@
     "admin": "Admin",
     "login": "Log in",
     "logout": "Log out",
-    "guide": "Guide"
+    "detail": "Details",
+    "guide": "Guide",
+    "confirm": "Confirm",
+    "cancel": "Cancel"
   },
   "success": {
     "format": "{attribute} successfully"
   },
   "error": {
-    "login": "The format of mobile phone number is wrong, please fill in again."
+    "missing": "Required parameter missing",
+    "login": "The format of mobile phone number is wrong, please fill in again.",
+    "uploadLimit": "Upload files no larger than {limit} in JPG, GIF, PNG format"
+  },
+  "warning": {
+    "browser": "You browser can not work"
   },
   "api": {
     "forbidden": "No permissions!",
     "serverError": "The server sent an error, please try again later",
-    "timeout": "Network timeout"
+    "timeout": "Network timeout",
+    "notWritten": "Local upload not written"
   },
   "nav": {
     "home": {
@@ -23,6 +32,49 @@
     },
     "icon": {
       "name": "Icons"
+    },
+    "routes": {
+      "name": "Nested routes",
+      "children": [
+        {
+          "name": "Menu 1"
+        },
+        {
+          "name": "Menu 2"
+        },
+        {
+          "name": "Menu 3",
+          "children": [
+            {
+              "name": "Menu 3-1"
+            }
+          ]
+        }
+      ]
+    },
+    "editor": {
+      "name": "Text editor",
+      "children": [
+        {
+          "name": "Rich text",
+          "children": [
+            {
+              "name": "Quill"
+            }
+          ]
+        },
+        {
+          "name": "Markdown",
+          "children": [
+            {
+              "name": "Mavon"
+            }
+          ]
+        }
+      ]
+    },
+    "image": {
+      "name": "Image editor"
     }
   },
   "login": {
@@ -50,6 +102,52 @@
       "text_2": "(alibaba vector icon library), search and find the icon we need, and click to download it, as shown in the figure below:",
       "text_3": "After that, click \"Copy SVG\", and we have successfully generated the SVG code for the desired icon.",
       "text_4": "Finally, paste the copied SVG code into the location of the box selection code in the diagram, so that our icon library has successfully generated the icon, ready to be used directly."
+    }
+  },
+  "routes": {
+    "nav_1": "Level 1 navigation",
+    "nav_2": "Level 2 navigation",
+    "nav_3": "Level 3 navigation",
+    "onePage": "One page",
+    "multipage": "Have child pages",
+    "detailsPage": "Details page"
+  },
+  "editor": {
+    "components": {
+      "placeholder": "Editing...",
+      "uploadVideo": "Video Upload",
+      "obtainLink": "Obtain the link",
+      "videoLink": "Video Link：",
+      "coverLink": "Cover Link：",
+      "videoLinkPlaceholder": "Please enter the video link address",
+      "coverLinkPlaceholder": "Please enter the cover link address",
+      "copyLink": "Click the link to copy",
+      "selectFile": "Select File",
+      "copy": "Copy"
+    },
+    "views": {
+      "quill": {
+        "introduction_1": "Quill is a modern rich text editor built for compatibility and extensibility.",
+        "introduction_2": "It was created by Jason Chen and Byron Milligan and actively maintained by Slab."
+      },
+      "mavon": {
+        "introduction": "A markdown editor based on Vue.",
+        "markdownIt": "jk-markdown-it",
+        "markdownItIntroduction": "Markdown parser, perfectly compatible with the mavon editor."
+      }
+    }
+  },
+  "lxp": {
+    "name": "Learning experience platform",
+    "index": {
+      "myFavorite": "My favorite",
+      "myFavoriteMore": "See more",
+      "recommend": "Recommend",
+      "InBatch": "In a batch"
+    },
+    "detail": {
+      "next": "Next chapter",
+      "ending": "The end"
     }
   }
 }

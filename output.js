@@ -1,0 +1,18 @@
+[
+  "vue",
+  "images",
+  "svg",
+  "media",
+  "fonts",
+  "pug",
+  "css",
+  "postcss",
+  "scss",
+  "sass",
+  "less",
+  "stylus",
+  "js",
+  "eslint",
+  "icons",
+  "md"
+];

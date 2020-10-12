@@ -5,7 +5,6 @@ function resolve(dir) {
 }
 
 module.exports = {
-  publicPath: "/admin",
   chainWebpack: config => {
     // set svg-sprite-loader
     config.module
@@ -22,6 +21,14 @@ module.exports = {
       .options({
         symbolId: "icon-[name]"
       })
+      .end();
+
+    // set text-loader
+    config.module
+      .rule("md")
+      .test(/\.md$/)
+      .use("text-loader")
+      .loader("text-loader")
       .end();
   }
 };
